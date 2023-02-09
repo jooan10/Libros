@@ -7,7 +7,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Copia el código de la aplicación al contenedor 
-COPY package*.json ./
+COPY package.json ./
 
 # Instala las dependencias de la aplicación
 RUN npm install
